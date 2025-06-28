@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap');
+
+body{margin: 0;}
+
+body {
+  height: 100vh;
+  background-image: url('curve.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  justify-content: center;
+  font-family: "Lexend Tera", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.logo{
+    height: 130px;
+    width: 130px;
+    margin-left: 35px;
+}
+
+.heading{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #6184D8;
+    text-shadow: 0 0 8px rgba(153, 182, 255, 0.6);
+    margin-top: 150px;
+}
+
+.heading h3{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+    color: #2D3142;
+    font-weight: 360;
+}
+
+.heading2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #6184D8;
+    text-shadow: 0 0 8px rgba(153, 182, 255, 0.6);
+    margin-top: 80px;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.button button{
+    outline-style: none;
+    box-shadow: none;
+    border: none;
+    width: 175px;
+    height: 48px;
+    background-color: #2D3142;
+    border-radius: 24px;
+    color: #E8E8E8;
+    padding: 2px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    font-family: "Lexend Tera", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.2s;
+    opacity: 93%;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.45);
+}
+
+.button button:hover{
+    background-color: #4c5166;
+}
+
+.button button:active{
+    scale: 0.9;
+    background-color: #6184D8;
+    transition: all 0.05s;
+}
+
+.input{
+    outline-style: none;
+    box-shadow: none;
+    border: none;
+    width: 250px;
+    height: 36px;
+    background-color: #2D3142;
+    border-radius: 24px;
+    color: #4c5166;
+    padding: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    font-family: "Lexend Tera", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.2s;
+    opacity: 93%;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.60);
+}
+
+.input:active{
+    scale: 1.2;
+    background-color: #6184D8;
+    transition: all 0.5s;
+}
+
+.input:focus{
+    scale: 1.2;
+    background-color: #6184D8;
+    color:#E8E8E8;
+    transition: all 0.5s;
+}
+
+.input:focus::placeholder{
+    color:#96ade3;
+}
+
+.input2{
+    text-align: center;
+    outline-style: none;
+    box-shadow: none;
+    border: none;
+    width: 320px;
+    height: 125px;
+    background-color: #2D3142;
+    border-radius: 24px;
+    color: #4c5166;
+    padding: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    font-family: "Lexend Tera", sans-serif;
+    font-optical-sizing: auto;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.40);
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.2s;
+    opacity: 93%;
+    
+}
+
+.input2:active{
+    scale: 1.2;
+    background-color: #6184D8;
+    transition: all 0.5s;
+}
+
+.input2:focus{
+    scale: 1.2;
+    background-color: #6184D8;
+    color:#E8E8E8;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+
+.input2:focus::placeholder{
+    color:#96ade3;
+}
+
+.alert{
+    text-align: center;
+    align-items: center;
+    outline-style: none;
+    box-shadow: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #2D3142;
+    border-radius: 24px;
+    color: #E8E8E8;
+    padding: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: -650px;
+    font-family: "Lexend Tera", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    transition: all 0.2s;
+    opacity: 93%;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.60);
+    position: absolute;
+}
+
+.alert:hover{
+    scale: 1.2;
+    background-color: #4c5166;
+    transition: all 0.5s;
+}
+
+.alert.active{
+    margin-top: -240px;
+    transition: all 0.2s;
+}
