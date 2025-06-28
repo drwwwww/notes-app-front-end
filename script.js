@@ -1,10 +1,10 @@
-function submitNote{
+function submitNote() {
     const note = {
-        title: document.getElementById("newNote").value;
-        content : document.getElementById("newContent").value;
+        title: document.getElementById("newNote").value,
+        content : document.getElementById("newContent").value,
     }
 
-    fetch("renderlink.com", {
+    fetch("https://notes-app-back-end-ly70.onrender.com/addNote", {
         method: "POST",
         headers: {
             "Content-Type" : "application/json"
