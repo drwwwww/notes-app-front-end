@@ -40,7 +40,7 @@ function viewNotes(){
                 <h3>${note.title}</h3>
                 <p>${note.content}</p>
             `;
-            notesContainer.appendChild(div);
+            viewList.appendChild(div);
             });
     })
 }
