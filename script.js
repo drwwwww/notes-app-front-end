@@ -25,3 +25,22 @@ function submitNote() {
     })
 
 }
+
+function viewNotes(){
+    fetch("https://notes-app-back-end-ly70.onrender.com/allNotes")
+    .then(response => response.json())
+    .then(data => {
+        const viewList = document.getElementById("view")
+        viewList.innerHTML = ""
+
+        data.forEach(note => {
+            const div = document.createElement("div");
+            div.classList.add("view");
+            div.innerHTML = `
+                <h3>${note.title}</h3>
+                <p>${note.content}</p>
+            `;
+            notesContainer.appendChild(div);
+            });
+    })
+}
