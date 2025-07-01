@@ -35,13 +35,13 @@ function viewNotes(){
         viewList.innerHTML = ""
 
         data.forEach(note => {
-            const div = document.createElement("div");
-            div.classList.add("view");
-            div.innerHTML = `
+            const li = document.createElement("li");
+            li.classList.add("view");
+            li.innerHTML = `
                 <h3>${note.title}</h3>
                 <p>${note.content}</p>
             `;
-            viewList.appendChild(div);
+            viewList.appendChild(li);
             });
 
     })
