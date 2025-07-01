@@ -43,6 +43,5 @@ function viewNotes(){
             `;
             viewList.appendChild(li);
             });
-
     })
 }
