@@ -241,3 +241,7 @@ body {
     background-color: #4c5166;
     transition: all 0.5s;
 }
+
+.view li{
+    color: #E8E8E8;
+}
