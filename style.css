@@ -29,6 +29,8 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
     display: flex;
     flex-direction: column;
     color: #6184D8;
