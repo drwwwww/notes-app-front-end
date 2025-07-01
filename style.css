@@ -43,7 +43,7 @@ body {
 .heading ul{
     display: flex;
     flex-direction: column;
-    align-items: center;   /* this is key */
+    align-items: center;
     padding: 0;
     margin: auto;
 }
@@ -51,6 +51,8 @@ body {
 .heading h3{
     font-size: 14px;
     margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
     color: #2D3142;
     font-weight: 360;
 }
