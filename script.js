@@ -30,8 +30,10 @@ function viewNotes(){
     fetch("https://notes-app-back-end-ly70.onrender.com/allNotes")
     .then(response => response.json())
     .then(data => {
+        const spinner = document.getElementById("spinner")
         const viewList = document.getElementById("view")
 
+        spinner.style.display = "flex";
         viewList.innerHTML = ""
 
         data.forEach(note => {
@@ -43,5 +45,8 @@ function viewNotes(){
             `;
             viewList.appendChild(li);
             });
+    })
+    .finally(() => {
+        spinner.style.display = "none";
     })
 }
