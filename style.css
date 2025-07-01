@@ -244,4 +244,5 @@ body {
 
 .view li{
     color: #E8E8E8;
+    list-style: none;
 }
