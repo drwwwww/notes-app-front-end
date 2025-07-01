@@ -32,6 +32,8 @@ function viewNotes(){
     .then(data => {
         const viewList = document.getElementById("view")
 
+        viewList.innerHTML = ""
+
         data.forEach(note => {
             const div = document.createElement("div");
             div.classList.add("view");
@@ -41,5 +43,6 @@ function viewNotes(){
             `;
             viewList.appendChild(div);
             });
+
     })
 }
