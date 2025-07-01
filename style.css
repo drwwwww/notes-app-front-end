@@ -202,7 +202,7 @@ body {
 }
 
 .alert:hover{
-    scale: 1.2;
+    scale: 1.1;
     background-color: #4c5166;
     transition: all 0.5s;
 }
@@ -223,7 +223,7 @@ body {
     background-color: #2D3142;
     border-radius: 24px;
     color: #E8E8E8;
-    padding: 12px;
+    padding: 5px;
     margin-left: 35px;
     margin-right: 35px;
     font-family: "Lexend Tera", sans-serif;
@@ -238,14 +238,9 @@ body {
 }
 
 .view:hover{
-    scale: 1.2;
+    scale: 1.1;
     background-color: #4c5166;
     transition: all 0.5s;
-}
-
-.view li{
-    color: #E8E8E8;
-    list-style: none;
 }
 
 .view h3{
